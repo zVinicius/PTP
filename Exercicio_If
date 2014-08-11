@@ -1,0 +1,37 @@
+include <stdio.h>
+
+  int main (){
+  
+  int x;
+  
+  scanf("%i", &x);
+  
+  if ( x % 2 == 0)
+    prinf("0 \n");
+    
+  if ( x % 2 != 0)
+    printf("1 \n");
+  
+  return 0;
+  
+  }
+  
+  or
+  
+  #include <stdio.h>;
+
+int main () {
+    
+    int a;
+    
+    scanf("%i", &a);
+    
+    int x = a % 2;
+    
+    if (x == 0)
+        printf("%i\n", x);
+    if (x != 0)
+        printf("%i\n", x);
+    
+ return 0;
+}
