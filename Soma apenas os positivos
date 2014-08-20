@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main (){
+    
+    int n, a, cont, soma;
+    
+    scanf("%i", &n);
+    
+    soma = 0;
+    cont = 0;
+        
+    while (cont != n){
+        scanf("%i", &a);
+        if ( a % 2 == 0){
+            soma = a + soma;
+            soma = soma + 1;
+        }
+        
+    }
+    printf("%i\n", soma);
+    
+return 0;   
+}
