@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main () {
+
+    int a, b, mdc, r;
+
+    scanf("%i%i", &a, &b);
+
+    do{
+        if((a%b) == 0){
+            mdc = b;
+            printf("%i", mdc);
+        }
+        else{
+            r = a%b;
+            a=b;
+            b=r;
+        }
+    }
+    
+    while((a%b)!=0);
+    
+    printf("%i", b);
+
+
+
+return 0;
+}
+
